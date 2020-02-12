@@ -11,8 +11,22 @@
     <link rel="stylesheet" href="/styles/index.css"/>
   </head>
   <body>
-    <video autoplay ></video>
-    <canvas></canvas>
-    <p data-status="loading">Loading... It may take some time...</p>
+    <main data-page="login">
+      <button id="go-to-create-user">Create user</button>
+    </main>
+
+    <main data-page="new-user">
+      <form id="create-user-form" action="/create">
+        <label>
+          <span>Name</span>
+          <input type="text" id="name" autocomplete="name" name="name">
+        </label>
+        <canvas id="new-user-photo"></canvas>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <p id="status" data-status=""></p>
   </body>
 </html>
