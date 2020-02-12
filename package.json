@@ -1,6 +1,6 @@
 {
   "name": "jsfacialrecognition",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JS test for facial recognition",
   "main": "index.js",
   "dependencies": {
